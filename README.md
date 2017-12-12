@@ -1,7 +1,7 @@
 #
 
-In the Registration process, the Client sends ``username'' and hash of password
-generated ``hash(password)'' to the Server. The Server inserts the username and
+In the Registration process, the Client sends "username" and hash of password
+generated "hash(password)" to the Server. The Server inserts the username and
 password_hash in its database.
 
 #
@@ -14,9 +14,9 @@ The login process is as follows
 
 1. The user enters username and password on its interface after selecting login.
 
-2. The server sends a ``random string'' to the client.
+2. The server sends a "random string" to the client.
 
-3. The Client receives the random string. It encrypts the ``password_hash''
+3. The Client receives the random string. It encrypts the "password_hash"
 with the received random string as key using AES. It sends the encryped stream
 to the Server.
 
